@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package packagestampa;
+package frame;
 
-import com.toy.anagrams.ui.FrameCaricamentoFile;
+import frame.FrameCaricamentoFile;
 import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -19,6 +19,7 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import classi.StampaFile;
 
 /**
  *

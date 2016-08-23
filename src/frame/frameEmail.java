@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.toy.anagrams.ui;
+package frame;
 
-import com.toy.anagrams.ui.FrameCaricamentoFile;
+import frame.FrameCaricamentoFile;
 import java.awt.Desktop;
-import packageemail.ThreadEmail;
+import classi.ThreadEmail;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.WindowAdapter;
@@ -21,7 +21,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import packageemail.ThreadEmail;
+import classi.ThreadEmail;
 
 /**
  *

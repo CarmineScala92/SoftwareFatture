@@ -5,7 +5,7 @@
  * This example only works with the AGPL version of iText.
  */
 
-package part1.chapter01;
+package classi;
 
 import com.itextpdf.text.BaseColor;
 import java.io.FileOutputStream;

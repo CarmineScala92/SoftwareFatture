@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.toy.anagrams.ui;
+package frame;
 
 
-import packagestampa.StampaFile;
-import packagestampa.FrameStampa;
+import classi.StampaFile;
 import com.itextpdf.text.DocumentException;
 import java.awt.Color;
 import java.awt.Component;
@@ -687,7 +686,7 @@ private frameImpostazioni imp;
         String ImpostaIva=this.jLabel13.getText();
         String totaleFattura=this.jLabel14.getText();
         
-      new part1.chapter01.Pdf().createPdf(RESULT,elementi,codice,data,nomeCliente,indirizzo,piva,imponibile,ImpostaIva,totaleFattura);        // TODO add your handling code here:
+      new   classi.Pdf().createPdf(RESULT,elementi,codice,data,nomeCliente,indirizzo,piva,imponibile,ImpostaIva,totaleFattura);        // TODO add your handling code here:
     
        
          JFrame parent = new JFrame();
